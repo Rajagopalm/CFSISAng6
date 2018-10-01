@@ -1,0 +1,242 @@
+2018-09-15 17:35:20.081 +05:30 [Warning] No type was specified for the decimal column '"UnitPrice"' on entity type '"Track"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-09-15 17:35:20.320 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-15 17:35:21.997 +05:30 [Information] Executed DbCommand ("184"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Albums] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END"
+2018-09-15 17:35:22.754 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:61484/  0
+2018-09-15 17:35:22.751 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/  
+2018-09-15 17:35:22.899 +05:30 [Information] Request finished in 152.9855ms 200 
+2018-09-15 17:35:23.251 +05:30 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\index.html"'
+2018-09-15 17:35:23.280 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/touch-icon.png  
+2018-09-15 17:35:23.291 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/runtime.js  
+2018-09-15 17:35:23.294 +05:30 [Information] Request finished in 532.0336ms 200 text/html
+2018-09-15 17:35:23.315 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/polyfills.js  
+2018-09-15 17:35:23.369 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-15 17:35:23.386 +05:30 [Information] Request finished in 147.5351ms 200 image/png
+2018-09-15 17:35:23.466 +05:30 [Information] Sending file. Request path: '"/runtime.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\runtime.js"'
+2018-09-15 17:35:23.474 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/styles.js  
+2018-09-15 17:35:23.491 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/vendor.js  
+2018-09-15 17:35:23.494 +05:30 [Information] Request finished in 232.0694ms 200 application/javascript
+2018-09-15 17:35:23.505 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/scripts.js  
+2018-09-15 17:35:23.920 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/main.js  
+2018-09-15 17:35:24.169 +05:30 [Information] Sending file. Request path: '"/main.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\main.js"'
+2018-09-15 17:35:24.184 +05:30 [Information] Request finished in 257.0905ms 200 application/javascript
+2018-09-15 17:35:24.283 +05:30 [Information] Sending file. Request path: '"/polyfills.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\polyfills.js"'
+2018-09-15 17:35:24.292 +05:30 [Information] Request finished in 988.6331ms 200 application/javascript
+2018-09-15 17:35:24.459 +05:30 [Information] Sending file. Request path: '"/styles.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\styles.js"'
+2018-09-15 17:35:24.510 +05:30 [Information] Sending file. Request path: '"/scripts.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\scripts.js"'
+2018-09-15 17:35:24.537 +05:30 [Information] Request finished in 1016.3955ms 200 application/javascript
+2018-09-15 17:35:24.537 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/fontawesome-webfont.woff2?v=4.7.0  
+2018-09-15 17:35:24.502 +05:30 [Information] Request finished in 1009.2709ms 200 application/javascript
+2018-09-15 17:35:24.747 +05:30 [Information] Sending file. Request path: '"/fontawesome-webfont.woff2"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\fontawesome-webfont.woff2"'
+2018-09-15 17:35:24.792 +05:30 [Information] Request finished in 239.7564ms 200 font/woff2
+2018-09-15 17:35:25.029 +05:30 [Information] Sending file. Request path: '"/vendor.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\vendor.js"'
+2018-09-15 17:35:25.047 +05:30 [Information] Request finished in 1637.9602ms 200 application/javascript
+2018-09-15 17:35:26.380 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:35:26.577 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/albums  
+2018-09-15 17:35:26.581 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/images/headphone-head.png  
+2018-09-15 17:35:26.643 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/images/artists32.png  
+2018-09-15 17:35:26.745 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/images/gear.png  
+2018-09-15 17:35:26.990 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/images/record.png  
+2018-09-15 17:35:27.064 +05:30 [Information] Sending file. Request path: '"/images/headphone-head.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\headphone-head.png"'
+2018-09-15 17:35:27.084 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/favicon.ico  
+2018-09-15 17:35:27.092 +05:30 [Information] Request finished in 561.6977ms 200 image/png
+2018-09-15 17:35:27.100 +05:30 [Information] Sending file. Request path: '"/images/gear.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\gear.png"'
+2018-09-15 17:35:27.124 +05:30 [Information] Sending file. Request path: '"/images/record.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\record.png"'
+2018-09-15 17:35:27.132 +05:30 [Information] Request finished in 541.3979ms 200 image/png
+2018-09-15 17:35:27.142 +05:30 [Information] Sending file. Request path: '"/images/artists32.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\artists32.png"'
+2018-09-15 17:35:27.152 +05:30 [Information] Request finished in 565.9211ms 200 image/png
+2018-09-15 17:35:27.163 +05:30 [Information] Request finished in 588.1716ms 200 image/png
+2018-09-15 17:35:27.218 +05:30 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\favicon.ico"'
+2018-09-15 17:35:27.240 +05:30 [Information] Request finished in 160.2574ms 200 image/x-icon
+2018-09-15 17:35:27.621 +05:30 [Information] Route matched with "{action = \"GetAlbums\", controller = \"CFSISApi\"}". Executing action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)"
+2018-09-15 17:35:27.624 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:35:27.665 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:35:27.686 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.2297ms.
+2018-09-15 17:35:27.704 +05:30 [Information] Executing action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" with arguments (["-1", "15"]) - Validation state: Valid
+2018-09-15 17:35:27.721 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:35:27.745 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-15 17:35:28.024 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 378.4283ms
+2018-09-15 17:35:28.088 +05:30 [Information] Request finished in 1661.9941ms 200 application/json; charset=utf-8
+2018-09-15 17:35:28.702 +05:30 [Information] Executed DbCommand ("541"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx].[Id], [ctx].[AmazonUrl], [ctx].[ArtistId], [ctx].[Description], [ctx].[ImageUrl], [ctx].[SpotifyUrl], [ctx].[Title], [ctx].[Year], [ctx.Artist].[Id], [ctx.Artist].[AmazonUrl], [ctx.Artist].[ArtistName], [ctx.Artist].[Description], [ctx.Artist].[ImageUrl]
+FROM [Albums] AS [ctx]
+INNER JOIN [Artists] AS [ctx.Artist] ON [ctx].[ArtistId] = [ctx.Artist].[Id]
+ORDER BY [ctx].[Title], [ctx].[Id]"
+2018-09-15 17:35:29.129 +05:30 [Information] Executed DbCommand ("81"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx.Tracks].[Id], [ctx.Tracks].[AlbumId], [ctx.Tracks].[Bytes], [ctx.Tracks].[Length], [ctx.Tracks].[SongName], [ctx.Tracks].[UnitPrice]
+FROM [Tracks] AS [ctx.Tracks]
+INNER JOIN (
+    SELECT DISTINCT [ctx0].[Id], [ctx0].[Title]
+    FROM [Albums] AS [ctx0]
+    INNER JOIN [Artists] AS [ctx.Artist0] ON [ctx0].[ArtistId] = [ctx.Artist0].[Id]
+) AS [t] ON [ctx.Tracks].[AlbumId] = [t].[Id]
+ORDER BY [t].[Title], [t].[Id]"
+2018-09-15 17:35:29.326 +05:30 [Information] Executed action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1543.7126ms.
+2018-09-15 17:35:29.496 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CFSISBusiness.Album, CFSISBusiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2018-09-15 17:35:29.713 +05:30 [Information] Executed action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" in 2004.4099ms
+2018-09-15 17:35:29.771 +05:30 [Information] Request finished in 3217.7851ms 200 application/json; charset=utf-8
+2018-09-15 17:36:34.447 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/album/1  
+2018-09-15 17:36:34.465 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/touch-icon.png  
+2018-09-15 17:36:34.490 +05:30 [Information] The file "/touch-icon.png" was not modified
+2018-09-15 17:36:34.524 +05:30 [Information] Request finished in 44.4561ms 304 image/png
+2018-09-15 17:36:34.528 +05:30 [Information] Route matched with "{action = \"GetAlbum\", controller = \"CFSISApi\"}". Executing action "CFSISNetCoreAPI.CFSISApiController.GetAlbum (CFSISNetCoreAPI)"
+2018-09-15 17:36:34.542 +05:30 [Information] Executing action method "CFSISNetCoreAPI.CFSISApiController.GetAlbum (CFSISNetCoreAPI)" with arguments (["1"]) - Validation state: Valid
+2018-09-15 17:36:34.560 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-15 17:36:34.650 +05:30 [Information] Executed DbCommand ("41"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [ctx].[Id], [ctx].[AmazonUrl], [ctx].[ArtistId], [ctx].[Description], [ctx].[ImageUrl], [ctx].[SpotifyUrl], [ctx].[Title], [ctx].[Year], [ctx.Artist].[Id], [ctx.Artist].[AmazonUrl], [ctx.Artist].[ArtistName], [ctx.Artist].[Description], [ctx.Artist].[ImageUrl]
+FROM [Albums] AS [ctx]
+INNER JOIN [Artists] AS [ctx.Artist] ON [ctx].[ArtistId] = [ctx.Artist].[Id]
+WHERE [ctx].[Id] = @__id_0
+ORDER BY [ctx].[Id]"
+2018-09-15 17:36:34.721 +05:30 [Information] Executed DbCommand ("52"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx.Tracks].[Id], [ctx.Tracks].[AlbumId], [ctx.Tracks].[Bytes], [ctx.Tracks].[Length], [ctx.Tracks].[SongName], [ctx.Tracks].[UnitPrice]
+FROM [Tracks] AS [ctx.Tracks]
+INNER JOIN (
+    SELECT DISTINCT [t].*
+    FROM (
+        SELECT TOP(1) [ctx0].[Id]
+        FROM [Albums] AS [ctx0]
+        INNER JOIN [Artists] AS [ctx.Artist0] ON [ctx0].[ArtistId] = [ctx.Artist0].[Id]
+        WHERE [ctx0].[Id] = @__id_0
+        ORDER BY [ctx0].[Id]
+    ) AS [t]
+) AS [t0] ON [ctx.Tracks].[AlbumId] = [t0].[Id]
+ORDER BY [t0].[Id]"
+2018-09-15 17:36:34.739 +05:30 [Information] Executed action method "CFSISNetCoreAPI.CFSISApiController.GetAlbum (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 188.0391ms.
+2018-09-15 17:36:34.747 +05:30 [Information] Executing ObjectResult, writing value of type '"CFSISBusiness.Album"'.
+2018-09-15 17:36:34.761 +05:30 [Information] Executed action "CFSISNetCoreAPI.CFSISApiController.GetAlbum (CFSISNetCoreAPI)" in 219.8814ms
+2018-09-15 17:36:34.796 +05:30 [Information] Request finished in 376.7008ms 200 application/json; charset=utf-8
+2018-09-15 17:36:40.899 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/null  
+2018-09-15 17:36:40.959 +05:30 [Information] Request finished in 70.8436ms 200 text/html
+2018-09-15 17:36:58.807 +05:30 [Information] Request starting HTTP/1.1 POST http://localhost:44389/api/login application/json 37
+2018-09-15 17:36:58.826 +05:30 [Information] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)"
+2018-09-15 17:36:58.838 +05:30 [Information] Policy execution successful.
+2018-09-15 17:36:58.885 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)" with arguments (["CFSISBusiness.User"]) - Validation state: Valid
+2018-09-15 17:36:58.899 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-15 17:36:58.946 +05:30 [Information] Executed DbCommand ("23"ms) [Parameters=["@__username_0='?' (Size = 4000), @__hashedPassword_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [usr].[Id], [usr].[Fullname], [usr].[Password], [usr].[Username]
+FROM [Users] AS [usr]
+WHERE ([usr].[Username] = @__username_0) AND ([usr].[Password] = @__hashedPassword_1)"
+2018-09-15 17:36:59.011 +05:30 [Information] AuthenticationScheme: "Cookies" signed in.
+2018-09-15 17:36:59.020 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 126.2498ms.
+2018-09-15 17:36:59.030 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:36:59.055 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)" in 205.4856ms
+2018-09-15 17:36:59.091 +05:30 [Information] Request finished in 283.9154ms 200 application/json; charset=utf-8
+2018-09-15 17:36:59.216 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/albums  
+2018-09-15 17:36:59.228 +05:30 [Information] Route matched with "{action = \"GetAlbums\", controller = \"CFSISApi\"}". Executing action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)"
+2018-09-15 17:36:59.245 +05:30 [Information] Executing action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" with arguments (["-1", "15"]) - Validation state: Valid
+2018-09-15 17:36:59.300 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-15 17:36:59.432 +05:30 [Information] Executed DbCommand ("65"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx].[Id], [ctx].[AmazonUrl], [ctx].[ArtistId], [ctx].[Description], [ctx].[ImageUrl], [ctx].[SpotifyUrl], [ctx].[Title], [ctx].[Year], [ctx.Artist].[Id], [ctx.Artist].[AmazonUrl], [ctx.Artist].[ArtistName], [ctx.Artist].[Description], [ctx.Artist].[ImageUrl]
+FROM [Albums] AS [ctx]
+INNER JOIN [Artists] AS [ctx.Artist] ON [ctx].[ArtistId] = [ctx.Artist].[Id]
+ORDER BY [ctx].[Title], [ctx].[Id]"
+2018-09-15 17:36:59.582 +05:30 [Information] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx.Tracks].[Id], [ctx.Tracks].[AlbumId], [ctx.Tracks].[Bytes], [ctx.Tracks].[Length], [ctx.Tracks].[SongName], [ctx.Tracks].[UnitPrice]
+FROM [Tracks] AS [ctx.Tracks]
+INNER JOIN (
+    SELECT DISTINCT [ctx0].[Id], [ctx0].[Title]
+    FROM [Albums] AS [ctx0]
+    INNER JOIN [Artists] AS [ctx.Artist0] ON [ctx0].[ArtistId] = [ctx.Artist0].[Id]
+) AS [t] ON [ctx.Tracks].[AlbumId] = [t].[Id]
+ORDER BY [t].[Title], [t].[Id]"
+2018-09-15 17:36:59.642 +05:30 [Information] Executed action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 376.7484ms.
+2018-09-15 17:36:59.651 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CFSISBusiness.Album, CFSISBusiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2018-09-15 17:36:59.714 +05:30 [Information] Executed action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" in 449.772ms
+2018-09-15 17:36:59.750 +05:30 [Information] Request finished in 562.5544ms 200 application/json; charset=utf-8
+2018-09-15 17:37:26.369 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:37:26.378 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:37:26.397 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:37:26.411 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0923ms.
+2018-09-15 17:37:26.421 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:37:26.437 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 43.1885ms
+2018-09-15 17:37:26.464 +05:30 [Information] Request finished in 77.7617ms 200 application/json; charset=utf-8
+2018-09-15 17:39:26.362 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:39:26.371 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:39:26.379 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:39:26.387 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0167ms.
+2018-09-15 17:39:26.407 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:39:26.418 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 36.4968ms
+2018-09-15 17:39:26.431 +05:30 [Information] Request finished in 66.6139ms 200 application/json; charset=utf-8
+2018-09-15 17:41:26.375 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:41:26.403 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:41:26.412 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:41:26.420 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0157ms.
+2018-09-15 17:41:26.428 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:41:26.438 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 24.9753ms
+2018-09-15 17:41:26.469 +05:30 [Information] Request finished in 72.3869ms 200 application/json; charset=utf-8
+2018-09-15 17:43:26.360 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:43:26.374 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:43:26.384 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:43:26.406 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.016ms.
+2018-09-15 17:43:26.416 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:43:26.429 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 43.0633ms
+2018-09-15 17:43:26.480 +05:30 [Information] Request finished in 83.0868ms 200 application/json; charset=utf-8
+2018-09-15 17:45:26.493 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:45:26.501 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:45:26.509 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:45:26.517 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0157ms.
+2018-09-15 17:45:26.524 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:45:26.535 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 23.524ms
+2018-09-15 17:45:26.568 +05:30 [Information] Request finished in 50.6764ms 200 application/json; charset=utf-8
+2018-09-15 17:47:26.361 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:47:26.371 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:47:26.381 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:47:26.401 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0167ms.
+2018-09-15 17:47:26.411 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:47:26.437 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 40.3521ms
+2018-09-15 17:47:26.500 +05:30 [Information] Request finished in 86.0338ms 200 application/json; charset=utf-8
+2018-09-15 17:49:26.359 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:49:26.374 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:49:26.383 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:49:26.403 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0153ms.
+2018-09-15 17:49:26.413 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:49:26.432 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 39.0698ms
+2018-09-15 17:49:26.486 +05:30 [Information] Request finished in 88.2943ms 200 application/json; charset=utf-8
+2018-09-15 17:51:26.354 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:51:26.362 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:51:26.373 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:51:26.381 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0157ms.
+2018-09-15 17:51:26.389 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:51:26.411 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 26.9949ms
+2018-09-15 17:51:26.434 +05:30 [Information] Request finished in 72.2175ms 200 application/json; charset=utf-8
+2018-09-15 17:53:26.422 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:53:26.431 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:53:26.440 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:53:26.450 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.015ms.
+2018-09-15 17:53:26.459 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:53:26.477 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 27.6224ms
+2018-09-15 17:53:26.507 +05:30 [Information] Request finished in 64.0346ms 200 application/json; charset=utf-8
+2018-09-15 17:55:26.353 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:55:26.362 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:55:26.371 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:55:26.384 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.022ms.
+2018-09-15 17:55:26.411 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:55:26.428 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 48.1392ms
+2018-09-15 17:55:26.492 +05:30 [Information] Request finished in 84.9493ms 200 application/json; charset=utf-8
+2018-09-15 17:57:26.349 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:57:26.359 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:57:26.369 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:57:26.379 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0454ms.
+2018-09-15 17:57:26.408 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:57:26.423 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 49.2899ms
+2018-09-15 17:57:26.453 +05:30 [Information] Request finished in 82.0302ms 200 application/json; charset=utf-8
+2018-09-15 17:59:26.360 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 17:59:26.371 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 17:59:26.380 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 17:59:26.392 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.016ms.
+2018-09-15 17:59:26.412 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 17:59:26.425 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 41.9738ms
+2018-09-15 17:59:26.449 +05:30 [Information] Request finished in 86.0657ms 200 application/json; charset=utf-8
+2018-09-15 18:01:26.363 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:44389/api/isAuthenticated  
+2018-09-15 18:01:26.372 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-15 18:01:26.383 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-15 18:01:26.402 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.016ms.
+2018-09-15 18:01:26.414 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-15 18:01:26.427 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 42.3556ms
+2018-09-15 18:01:26.469 +05:30 [Information] Request finished in 82.0775ms 200 application/json; charset=utf-8

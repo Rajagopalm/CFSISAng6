@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78594F5E-23DF-4B8D-9A08-BE548F0E2E4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CFSISNetCoreAPI", "src\CFSISNetCoreAPI\CFSISNetCoreAPI.csproj", "{E23C9C4B-65F4-4E1C-B1DD-747B0447B152}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CFSISBusiness", "src\CFSISBusiness\CFSISBusiness.csproj", "{BDFA44FA-C05B-4E81-A98F-8B6AE16A90D0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CFSISAngular", "src\CFSISAngular\", "{D2D32764-297B-4438-943A-58FEDB6C5530}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53499"
+		Debug.AspNetCompiler.PhysicalPath = "src\CFSISAngular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53499\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53499"
+		Release.AspNetCompiler.PhysicalPath = "src\CFSISAngular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53499\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53499"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23C9C4B-65F4-4E1C-B1DD-747B0447B152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23C9C4B-65F4-4E1C-B1DD-747B0447B152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23C9C4B-65F4-4E1C-B1DD-747B0447B152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23C9C4B-65F4-4E1C-B1DD-747B0447B152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFA44FA-C05B-4E81-A98F-8B6AE16A90D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFA44FA-C05B-4E81-A98F-8B6AE16A90D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFA44FA-C05B-4E81-A98F-8B6AE16A90D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFA44FA-C05B-4E81-A98F-8B6AE16A90D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D32764-297B-4438-943A-58FEDB6C5530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D32764-297B-4438-943A-58FEDB6C5530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D32764-297B-4438-943A-58FEDB6C5530}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D32764-297B-4438-943A-58FEDB6C5530}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E23C9C4B-65F4-4E1C-B1DD-747B0447B152} = {78594F5E-23DF-4B8D-9A08-BE548F0E2E4D}
+		{BDFA44FA-C05B-4E81-A98F-8B6AE16A90D0} = {78594F5E-23DF-4B8D-9A08-BE548F0E2E4D}
+		{D2D32764-297B-4438-943A-58FEDB6C5530} = {78594F5E-23DF-4B8D-9A08-BE548F0E2E4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2E331A1-AEF1-4B5B-8CA2-8452957C5F64}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,205 @@
+2018-09-21 08:55:21.028 +05:30 [Warning] No type was specified for the decimal column '"UnitPrice"' on entity type '"Track"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-09-21 08:55:21.317 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-21 08:55:23.020 +05:30 [Information] Executed DbCommand ("596"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Albums] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END"
+2018-09-21 08:55:42.514 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-09-21 08:55:42.870 +05:30 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\index.html"'
+2018-09-21 08:55:42.875 +05:30 [Information] Request finished in 361.6182ms 200 text/html
+2018-09-21 08:55:42.916 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/touch-icon.png  
+2018-09-21 08:55:42.920 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/runtime.js  
+2018-09-21 08:55:42.920 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/polyfills.js  
+2018-09-21 08:55:43.038 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-21 08:55:43.038 +05:30 [Information] Request finished in 122.4014ms 200 image/png
+2018-09-21 08:55:43.040 +05:30 [Information] Sending file. Request path: '"/runtime.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\runtime.js"'
+2018-09-21 08:55:43.040 +05:30 [Information] Request finished in 120.8336ms 200 application/javascript
+2018-09-21 08:55:43.041 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/styles.js  
+2018-09-21 08:55:43.057 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/scripts.js  
+2018-09-21 08:55:43.140 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/vendor.js  
+2018-09-21 08:55:43.160 +05:30 [Information] Sending file. Request path: '"/polyfills.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\polyfills.js"'
+2018-09-21 08:55:43.166 +05:30 [Information] Request finished in 245.5521ms 200 application/javascript
+2018-09-21 08:55:43.166 +05:30 [Information] Sending file. Request path: '"/styles.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\styles.js"'
+2018-09-21 08:55:43.166 +05:30 [Information] Request finished in 125.5595ms 200 application/javascript
+2018-09-21 08:55:43.223 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/main.js  
+2018-09-21 08:55:43.362 +05:30 [Information] Sending file. Request path: '"/main.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\main.js"'
+2018-09-21 08:55:43.362 +05:30 [Information] Request finished in 139.5288ms 200 application/javascript
+2018-09-21 08:55:43.445 +05:30 [Information] Sending file. Request path: '"/scripts.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\scripts.js"'
+2018-09-21 08:55:43.445 +05:30 [Information] Request finished in 388.0263ms 200 application/javascript
+2018-09-21 08:55:43.602 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/fontawesome-webfont.woff2?v=4.7.0  
+2018-09-21 08:55:43.655 +05:30 [Information] Sending file. Request path: '"/fontawesome-webfont.woff2"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\fontawesome-webfont.woff2"'
+2018-09-21 08:55:43.655 +05:30 [Information] Request finished in 52.8557ms 200 font/woff2
+2018-09-21 08:55:44.163 +05:30 [Information] Sending file. Request path: '"/vendor.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\vendor.js"'
+2018-09-21 08:55:44.163 +05:30 [Information] Request finished in 1023.1824ms 200 application/javascript
+2018-09-21 08:55:46.301 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/isAuthenticated  
+2018-09-21 08:55:46.472 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/albums  
+2018-09-21 08:55:47.370 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-21 08:55:47.380 +05:30 [Information] Route matched with "{action = \"GetAlbums\", controller = \"CFSISApi\"}". Executing action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)"
+2018-09-21 08:55:47.416 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-21 08:55:47.422 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.1688ms.
+2018-09-21 08:55:47.446 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-21 08:55:47.491 +05:30 [Information] Executing action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" with arguments (["-1", "15"]) - Validation state: Valid
+2018-09-21 08:55:47.513 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-21 08:55:47.604 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 229.8771ms
+2018-09-21 08:55:47.606 +05:30 [Information] Request finished in 1304.8064ms 200 application/json; charset=utf-8
+2018-09-21 08:55:47.632 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/images/headphone-head.png  
+2018-09-21 08:55:47.656 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/images/record.png  
+2018-09-21 08:55:47.662 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/images/artists32.png  
+2018-09-21 08:55:47.663 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/images/gear.png  
+2018-09-21 08:55:47.668 +05:30 [Information] Sending file. Request path: '"/images/headphone-head.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\headphone-head.png"'
+2018-09-21 08:55:47.669 +05:30 [Information] Request finished in 36.8973ms 200 image/png
+2018-09-21 08:55:47.669 +05:30 [Information] Sending file. Request path: '"/images/record.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\record.png"'
+2018-09-21 08:55:47.669 +05:30 [Information] Request finished in 13.5979ms 200 image/png
+2018-09-21 08:55:47.680 +05:30 [Information] Sending file. Request path: '"/images/artists32.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\artists32.png"'
+2018-09-21 08:55:47.681 +05:30 [Information] Request finished in 18.1188ms 200 image/png
+2018-09-21 08:55:47.686 +05:30 [Information] Sending file. Request path: '"/images/gear.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\gear.png"'
+2018-09-21 08:55:47.686 +05:30 [Information] Request finished in 23.0617ms 200 image/png
+2018-09-21 08:55:47.830 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2018-09-21 08:55:47.908 +05:30 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\favicon.ico"'
+2018-09-21 08:55:47.908 +05:30 [Information] Request finished in 78.6822ms 200 image/x-icon
+2018-09-21 08:55:48.740 +05:30 [Information] Executed DbCommand ("702"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx].[Id], [ctx].[AmazonUrl], [ctx].[ArtistId], [ctx].[Description], [ctx].[ImageUrl], [ctx].[SpotifyUrl], [ctx].[Title], [ctx].[Year], [ctx.Artist].[Id], [ctx.Artist].[AmazonUrl], [ctx.Artist].[ArtistName], [ctx.Artist].[Description], [ctx.Artist].[ImageUrl]
+FROM [Albums] AS [ctx]
+INNER JOIN [Artists] AS [ctx.Artist] ON [ctx].[ArtistId] = [ctx.Artist].[Id]
+ORDER BY [ctx].[Title], [ctx].[Id]"
+2018-09-21 08:55:49.126 +05:30 [Information] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx.Tracks].[Id], [ctx.Tracks].[AlbumId], [ctx.Tracks].[Bytes], [ctx.Tracks].[Length], [ctx.Tracks].[SongName], [ctx.Tracks].[UnitPrice]
+FROM [Tracks] AS [ctx.Tracks]
+INNER JOIN (
+    SELECT DISTINCT [ctx0].[Id], [ctx0].[Title]
+    FROM [Albums] AS [ctx0]
+    INNER JOIN [Artists] AS [ctx.Artist0] ON [ctx0].[ArtistId] = [ctx.Artist0].[Id]
+) AS [t] ON [ctx.Tracks].[AlbumId] = [t].[Id]
+ORDER BY [t].[Title], [t].[Id]"
+2018-09-21 08:55:49.241 +05:30 [Information] Executed action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1749.4054ms.
+2018-09-21 08:55:49.251 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CFSISBusiness.Album, CFSISBusiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2018-09-21 08:55:49.358 +05:30 [Information] Executed action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" in 1977.2609ms
+2018-09-21 08:55:49.362 +05:30 [Information] Request finished in 2887.9061ms 200 application/json; charset=utf-8
+2018-09-21 08:56:12.223 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/albums  
+2018-09-21 08:56:12.232 +05:30 [Information] Request finished in 7.7118ms 200 text/html
+2018-09-21 08:56:12.301 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/touch-icon.png  
+2018-09-21 08:56:12.310 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/runtime.js  
+2018-09-21 08:56:12.315 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-21 08:56:12.315 +05:30 [Information] Request finished in 14.2355ms 200 image/png
+2018-09-21 08:56:12.315 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/scripts.js  
+2018-09-21 08:56:12.318 +05:30 [Information] Sending file. Request path: '"/runtime.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\runtime.js"'
+2018-09-21 08:56:12.318 +05:30 [Information] Request finished in 7.4339ms 200 application/javascript
+2018-09-21 08:56:12.335 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/vendor.js  
+2018-09-21 08:56:12.336 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/styles.js  
+2018-09-21 08:56:12.338 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js  
+2018-09-21 08:56:12.409 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/main.js  
+2018-09-21 08:56:12.464 +05:30 [Information] Sending file. Request path: '"/main.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\main.js"'
+2018-09-21 08:56:12.464 +05:30 [Information] Request finished in 54.7525ms 200 application/javascript
+2018-09-21 08:56:12.466 +05:30 [Information] Sending file. Request path: '"/styles.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\styles.js"'
+2018-09-21 08:56:12.466 +05:30 [Information] Request finished in 129.6597ms 200 application/javascript
+2018-09-21 08:56:12.481 +05:30 [Information] Sending file. Request path: '"/scripts.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\scripts.js"'
+2018-09-21 08:56:12.481 +05:30 [Information] Request finished in 165.7146ms 200 application/javascript
+2018-09-21 08:56:12.505 +05:30 [Information] Sending file. Request path: '"/polyfills.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\polyfills.js"'
+2018-09-21 08:56:12.505 +05:30 [Information] Request finished in 167.8893ms 200 application/javascript
+2018-09-21 08:56:12.832 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/fontawesome-webfont.woff2?v=4.7.0  
+2018-09-21 08:56:12.906 +05:30 [Information] Sending file. Request path: '"/fontawesome-webfont.woff2"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\fontawesome-webfont.woff2"'
+2018-09-21 08:56:12.908 +05:30 [Information] Request finished in 74.6037ms 200 font/woff2
+2018-09-21 08:56:13.006 +05:30 [Information] Sending file. Request path: '"/vendor.js"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\vendor.js"'
+2018-09-21 08:56:13.006 +05:30 [Information] Request finished in 671.5075ms 200 application/javascript
+2018-09-21 08:56:14.422 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/isAuthenticated  
+2018-09-21 08:56:14.423 +05:30 [Information] Route matched with "{action = \"IsAuthenthenticated\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)"
+2018-09-21 08:56:14.425 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-21 08:56:14.425 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.1011ms.
+2018-09-21 08:56:14.425 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-21 08:56:14.426 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.IsAuthenthenticated (CFSISNetCoreAPI)" in 2.5537ms
+2018-09-21 08:56:14.426 +05:30 [Information] Request finished in 3.5801ms 200 application/json; charset=utf-8
+2018-09-21 08:56:14.561 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/albums  
+2018-09-21 08:56:14.569 +05:30 [Information] Route matched with "{action = \"GetAlbums\", controller = \"CFSISApi\"}". Executing action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)"
+2018-09-21 08:56:14.570 +05:30 [Information] Executing action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" with arguments (["-1", "15"]) - Validation state: Valid
+2018-09-21 08:56:14.571 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-21 08:56:14.593 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/headphone-head.png  
+2018-09-21 08:56:14.594 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/gear.png  
+2018-09-21 08:56:14.595 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/record.png  
+2018-09-21 08:56:14.595 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/artists32.png  
+2018-09-21 08:56:14.601 +05:30 [Information] Sending file. Request path: '"/images/headphone-head.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\headphone-head.png"'
+2018-09-21 08:56:14.601 +05:30 [Information] Request finished in 7.3569ms 200 image/png
+2018-09-21 08:56:14.601 +05:30 [Information] Sending file. Request path: '"/images/gear.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\gear.png"'
+2018-09-21 08:56:14.601 +05:30 [Information] Request finished in 6.9401ms 200 image/png
+2018-09-21 08:56:14.601 +05:30 [Information] Sending file. Request path: '"/images/record.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\record.png"'
+2018-09-21 08:56:14.601 +05:30 [Information] Request finished in 6.7186ms 200 image/png
+2018-09-21 08:56:14.601 +05:30 [Information] Sending file. Request path: '"/images/artists32.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\images\artists32.png"'
+2018-09-21 08:56:14.602 +05:30 [Information] Request finished in 6.7239ms 200 image/png
+2018-09-21 08:56:14.610 +05:30 [Information] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx].[Id], [ctx].[AmazonUrl], [ctx].[ArtistId], [ctx].[Description], [ctx].[ImageUrl], [ctx].[SpotifyUrl], [ctx].[Title], [ctx].[Year], [ctx.Artist].[Id], [ctx.Artist].[AmazonUrl], [ctx.Artist].[ArtistName], [ctx.Artist].[Description], [ctx.Artist].[ImageUrl]
+FROM [Albums] AS [ctx]
+INNER JOIN [Artists] AS [ctx.Artist] ON [ctx].[ArtistId] = [ctx.Artist].[Id]
+ORDER BY [ctx].[Title], [ctx].[Id]"
+2018-09-21 08:56:14.687 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/touch-icon.png  
+2018-09-21 08:56:14.687 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-21 08:56:14.688 +05:30 [Information] Request finished in 0.8563ms 200 image/png
+2018-09-21 08:56:14.699 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2018-09-21 08:56:14.700 +05:30 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\favicon.ico"'
+2018-09-21 08:56:14.700 +05:30 [Information] Request finished in 1.2395ms 200 image/x-icon
+2018-09-21 08:56:14.714 +05:30 [Information] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx.Tracks].[Id], [ctx.Tracks].[AlbumId], [ctx.Tracks].[Bytes], [ctx.Tracks].[Length], [ctx.Tracks].[SongName], [ctx.Tracks].[UnitPrice]
+FROM [Tracks] AS [ctx.Tracks]
+INNER JOIN (
+    SELECT DISTINCT [ctx0].[Id], [ctx0].[Title]
+    FROM [Albums] AS [ctx0]
+    INNER JOIN [Artists] AS [ctx.Artist0] ON [ctx0].[ArtistId] = [ctx.Artist0].[Id]
+) AS [t] ON [ctx.Tracks].[AlbumId] = [t].[Id]
+ORDER BY [t].[Title], [t].[Id]"
+2018-09-21 08:56:14.816 +05:30 [Information] Executed action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 245.331ms.
+2018-09-21 08:56:14.816 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CFSISBusiness.Album, CFSISBusiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2018-09-21 08:56:14.874 +05:30 [Information] Executed action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" in 304.1222ms
+2018-09-21 08:56:14.874 +05:30 [Information] Request finished in 313.524ms 200 application/json; charset=utf-8
+2018-09-21 08:56:20.689 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/applicationstats  
+2018-09-21 08:56:20.692 +05:30 [Information] Route matched with "{action = \"GetApplicationStats\", controller = \"Configuration\"}". Executing action "CFSISNetCoreAPI.Controllers.ConfigurationController.GetApplicationStats (CFSISNetCoreAPI)"
+2018-09-21 08:56:20.693 +05:30 [Information] Executing action method "CFSISNetCoreAPI.Controllers.ConfigurationController.GetApplicationStats (CFSISNetCoreAPI)" - Validation state: Valid
+2018-09-21 08:56:20.695 +05:30 [Information] Executed action method "CFSISNetCoreAPI.Controllers.ConfigurationController.GetApplicationStats (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.2133ms.
+2018-09-21 08:56:20.695 +05:30 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-09-21 08:56:20.699 +05:30 [Information] Executed action "CFSISNetCoreAPI.Controllers.ConfigurationController.GetApplicationStats (CFSISNetCoreAPI)" in 6.9289ms
+2018-09-21 08:56:20.699 +05:30 [Information] Request finished in 10.3086ms 200 application/json; charset=utf-8
+2018-09-21 08:56:20.735 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/touch-icon.png  
+2018-09-21 08:56:20.738 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-21 08:56:20.738 +05:30 [Information] Request finished in 7.1568ms 200 image/png
+2018-09-21 08:56:23.971 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/touch-icon.png  
+2018-09-21 08:56:23.972 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-21 08:56:23.972 +05:30 [Information] Request finished in 1.3298ms 200 image/png
+2018-09-21 08:56:33.481 +05:30 [Information] Request starting HTTP/1.1 POST https://localhost:5001/api/login application/json 37
+2018-09-21 08:56:33.489 +05:30 [Information] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing action "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)"
+2018-09-21 08:56:33.496 +05:30 [Information] Policy execution successful.
+2018-09-21 08:56:33.564 +05:30 [Information] Executing action method "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)" with arguments (["CFSISBusiness.User"]) - Validation state: Valid
+2018-09-21 08:56:33.569 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-21 08:56:33.824 +05:30 [Information] Executed DbCommand ("227"ms) [Parameters=["@__username_0='?' (Size = 4000), @__hashedPassword_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [usr].[Id], [usr].[Fullname], [usr].[Password], [usr].[Username]
+FROM [Users] AS [usr]
+WHERE ([usr].[Username] = @__username_0) AND ([usr].[Password] = @__hashedPassword_1)"
+2018-09-21 08:56:33.858 +05:30 [Information] AuthenticationScheme: "Cookies" signed in.
+2018-09-21 08:56:33.858 +05:30 [Information] Executed action method "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 294.0235ms.
+2018-09-21 08:56:33.858 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Boolean"'.
+2018-09-21 08:56:33.859 +05:30 [Information] Executed action "CFSISNetCoreAPI.AccountController.Login (CFSISNetCoreAPI)" in 369.842ms
+2018-09-21 08:56:33.859 +05:30 [Information] Request finished in 378.0151ms 200 application/json; charset=utf-8
+2018-09-21 08:56:33.901 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/albums  
+2018-09-21 08:56:33.910 +05:30 [Information] Route matched with "{action = \"GetAlbums\", controller = \"CFSISApi\"}". Executing action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)"
+2018-09-21 08:56:33.910 +05:30 [Information] Executing action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" with arguments (["-1", "15"]) - Validation state: Valid
+2018-09-21 08:56:33.911 +05:30 [Information] Entity Framework Core "2.1.3-rtm-32065" initialized '"CFSISContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-09-21 08:56:33.916 +05:30 [Information] Request starting HTTP/1.1 GET https://localhost:5001/touch-icon.png  
+2018-09-21 08:56:33.926 +05:30 [Information] Sending file. Request path: '"/touch-icon.png"'. Physical path: '"E:\Raj\Apps\CFSISAng6\src\CFSISNetCoreAPI\wwwroot\touch-icon.png"'
+2018-09-21 08:56:33.926 +05:30 [Information] Request finished in 10.3842ms 200 image/png
+2018-09-21 08:56:33.939 +05:30 [Information] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx].[Id], [ctx].[AmazonUrl], [ctx].[ArtistId], [ctx].[Description], [ctx].[ImageUrl], [ctx].[SpotifyUrl], [ctx].[Title], [ctx].[Year], [ctx.Artist].[Id], [ctx.Artist].[AmazonUrl], [ctx.Artist].[ArtistName], [ctx.Artist].[Description], [ctx.Artist].[ImageUrl]
+FROM [Albums] AS [ctx]
+INNER JOIN [Artists] AS [ctx.Artist] ON [ctx].[ArtistId] = [ctx.Artist].[Id]
+ORDER BY [ctx].[Title], [ctx].[Id]"
+2018-09-21 08:56:34.031 +05:30 [Information] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ctx.Tracks].[Id], [ctx.Tracks].[AlbumId], [ctx.Tracks].[Bytes], [ctx.Tracks].[Length], [ctx.Tracks].[SongName], [ctx.Tracks].[UnitPrice]
+FROM [Tracks] AS [ctx.Tracks]
+INNER JOIN (
+    SELECT DISTINCT [ctx0].[Id], [ctx0].[Title]
+    FROM [Albums] AS [ctx0]
+    INNER JOIN [Artists] AS [ctx.Artist0] ON [ctx0].[ArtistId] = [ctx.Artist0].[Id]
+) AS [t] ON [ctx.Tracks].[AlbumId] = [t].[Id]
+ORDER BY [t].[Title], [t].[Id]"
+2018-09-21 08:56:34.075 +05:30 [Information] Executed action method "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 164.5587ms.
+2018-09-21 08:56:34.075 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CFSISBusiness.Album, CFSISBusiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2018-09-21 08:56:34.126 +05:30 [Information] Executed action "CFSISNetCoreAPI.CFSISApiController.GetAlbums (CFSISNetCoreAPI)" in 215.8046ms
+2018-09-21 08:56:34.126 +05:30 [Information] Request finished in 224.9874ms 200 application/json; charset=utf-8
