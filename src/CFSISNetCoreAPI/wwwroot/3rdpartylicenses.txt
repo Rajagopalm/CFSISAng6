@@ -99,39 +99,39 @@ toastr@2.1.4
 MIT
 MIT
 
-@angular/animations@6.1.7
+@angular/animations@6.1.9
 MIT
 MIT
 
-@angular/common@6.1.7
+@angular/common@6.1.9
 MIT
 MIT
 
-@angular/compiler@6.1.7
+@angular/compiler@6.1.9
 MIT
 MIT
 
-@angular/core@6.1.7
+@angular/core@6.1.9
 MIT
 MIT
 
-@angular/forms@6.1.7
+@angular/forms@6.1.9
 MIT
 MIT
 
-@angular/http@6.1.7
+@angular/http@6.1.9
 MIT
 MIT
 
-@angular/platform-browser-dynamic@6.1.7
+@angular/platform-browser-dynamic@6.1.9
 MIT
 MIT
 
-@angular/platform-browser@6.1.7
+@angular/platform-browser@6.1.9
 MIT
 MIT
 
-@angular/router@6.1.7
+@angular/router@6.1.9
 MIT
 MIT
 
