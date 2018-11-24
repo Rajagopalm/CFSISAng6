@@ -9,7 +9,7 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
-      "targets": {
+      "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
@@ -46,7 +46,7 @@
               {"input": "node_modules/bootstrap/dist/css/bootstrap-theme.css"},
               {"input": "node_modules/font-awesome/css/font-awesome.css"},
               {"input": "node_modules/toastr/build/toastr.css"}
-            ],            
+            ],
             "scripts": [
               {
                 "input": "node_modules/jquery/dist/jquery.js"
@@ -143,7 +143,7 @@
     "CFSISAngular-e2e": {
       "root": "e2e/",
       "projectType": "application",
-      "targets": {
+      "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
